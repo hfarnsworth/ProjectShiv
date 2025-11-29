@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour {
         // Apply velocity once
         _rb.velocity = new Vector3(_horizontalSpeed, _verticalVelocity, 0f);
 
-        Debug.Log("Vertical Velocity: " + (_rb.velocity.y > 0) + " - " + (_verticalVelocity > 0));
+        // Debug.Log("Horizontal Velocity: " + _rb.velocity.x);
     }
         
     void Grounded() {
